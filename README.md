@@ -15,7 +15,7 @@
     - [STARK](#stark)
   - [Specific statements](#specific-statements)
     - [Polynomial commitments](#polynomial-commitments)
-    - [Verifiable delay functions](#verifiable-delay-functions)
+    - [Verifiable delay functions](#verifiable-delay-functions-vdf)
     - [Signatures](#signature-verification)
     - [Sigma protocols](#sigma-protocols)
     - [Powers-of-tau and other common-reference string verifiers](#powers-of-tau-and-other-common-reference-string-verifiers)
