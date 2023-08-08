@@ -19,8 +19,13 @@
         - [Wesolowski VDF](#wesolowski-vdf)
 
 ## Mission and vision
+In blockchain applications using (zero-knowledge) proof systems, proofs are stored and verified on-chain via smart contracts. This design makes the verifier vital. In deploying zero-knowledge proofs on blockchains, the verifier's correct implementation is crucial for the security of the proof system. An incorrect verifier (e.g., incorrect Fiat-Shamir transformation or omitted checks) jeopardizes the application, risking user funds.
 
-## Use cases
+This repository aims to catalog up-to-date verifiers for major, popular proof systems on the Ethereum Virtual Machine (EVM). This aids practitioners, researchers, and security experts in understanding deployed proof systems and evaluating EVM's proof verification capabilities.
+
+For contributions guideline, see the Contributing.md file.
+
+Inspired by Matter Lab's [Awesome zero-knowledge proofs](https://github.com/matter-labs/awesome-zero-knowledge-proofs) repository.
 
 ## Generic statements
 
