@@ -15,7 +15,7 @@
     - [STARK](#stark)
     - [Nova](#nova)
   - [Specific statements](#specific-statements)
-    - [Polynomial commitments](#polynomial-commitments)
+    - [Polynomial commitments](#polynomial-and-vector-commitments)
     - [Verifiable delay functions](#verifiable-delay-functions-vdf)
     - [Signatures](#signature-verification)
     - [Sigma protocols](#sigma-protocols)
