@@ -35,6 +35,7 @@ Inspired by Matter Lab's [Awesome zero-knowledge proofs](https://github.com/matt
 
 ### Groth16
 - [Arkworks solidity verifier](https://github.com/Tetration-Lab/arkworks-solidity-verifier)
+- [Risc0 verifier](https://github.com/risc0/risc0/tree/main/bonsai/ethereum/contracts)
 ### Plonk
 - [Consensys implementation](https://github.com/Consensys/plonk-solidity-audit)
 - [Matter Labs implementation](https://github.com/matter-labs/solidity_plonk_verifier)
