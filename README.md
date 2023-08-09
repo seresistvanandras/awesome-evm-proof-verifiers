@@ -23,7 +23,7 @@
     
 
 ## Mission and vision
-In blockchain applications using (zero-knowledge) proof systems, proofs are stored and verified on-chain via smart contracts. This design makes the verifier vital. In deploying zero-knowledge proofs on blockchains, the verifier's correct implementation is crucial for the security of the proof system. An incorrect verifier (e.g., incorrect Fiat-Shamir transformation or omitted checks) jeopardizes the application, risking user funds.
+In blockchain applications using (zero-knowledge) proof systems, proofs are stored and verified on-chain via smart contracts. This design makes the verifier vital. In deploying zero-knowledge proofs on blockchains, the verifier's correct implementation is crucial for the security of the proof system. An incorrect verifier (e.g., [incorrect Fiat-Shamir transformation](https://eprint.iacr.org/2023/691.pdf), omitted checks or other cryptographic vulnerabilities) jeopardizes the application, risking user funds.
 
 This repository aims to catalog up-to-date verifiers for major, popular proof systems on the Ethereum Virtual Machine (EVM). This aids practitioners, researchers, and security experts in understanding deployed proof systems and evaluating EVM's proof verification capabilities.
 
@@ -69,6 +69,7 @@ Inspired by Matter Lab's [Awesome zero-knowledge proofs](https://github.com/matt
 ### Sigma protocols
 - [Schnorr proof of knowledge](https://github.com/HarryR/solcrypto)
 - [Schnorr proof of knowledge in hidden order groups](https://github.com/a16z/cicada)
+- [Discrete logarithm equality](https://github.com/PhilippSchindler/EthDKG/blob/master/contracts/ETHDKG.sol#L400C9-L420C9)
 
 ### Powers-of-tau and other common-reference string verifiers
 - [Powers-of-tau contribution correctness](https://github.com/a16z/evm-powers-of-tau)
