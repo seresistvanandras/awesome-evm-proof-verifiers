@@ -56,7 +56,7 @@ Inspired by Matter Lab's [Awesome zero-knowledge proofs](https://github.com/matt
 - [FRI polynomial commitment scheme](https://etherscan.io/address/0x3e6118da317f7a433031f03bb71ab870d87dd2dd#code) 
 
 ### Verifiable delay functions (VDF)
-- [Wesolowski VDF](https://github.com/0xProject/VDF)
+- [Wesolowski VDF](https://github.com/0xProject/VDF), [EVM VDF](https://github.com/kilic/evmvdf)
 
 ### Signature verification
 - [ECDSA](https://github.com/miguelmota/sol-ecverify)
